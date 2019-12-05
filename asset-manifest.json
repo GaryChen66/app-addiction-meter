@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/app-addiction-meter/static/css/main.e72f111f.chunk.css",
+    "main.js": "/app-addiction-meter/static/js/main.4aa8c540.chunk.js",
+    "main.js.map": "/app-addiction-meter/static/js/main.4aa8c540.chunk.js.map",
+    "runtime-main.js": "/app-addiction-meter/static/js/runtime-main.9f6a72a9.js",
+    "runtime-main.js.map": "/app-addiction-meter/static/js/runtime-main.9f6a72a9.js.map",
+    "static/js/2.06fe0259.chunk.js": "/app-addiction-meter/static/js/2.06fe0259.chunk.js",
+    "static/js/2.06fe0259.chunk.js.map": "/app-addiction-meter/static/js/2.06fe0259.chunk.js.map",
+    "index.html": "/app-addiction-meter/index.html",
+    "precache-manifest.f0c9ecf400ab4d74af9b90c410e725f9.js": "/app-addiction-meter/precache-manifest.f0c9ecf400ab4d74af9b90c410e725f9.js",
+    "service-worker.js": "/app-addiction-meter/service-worker.js",
+    "static/css/main.e72f111f.chunk.css.map": "/app-addiction-meter/static/css/main.e72f111f.chunk.css.map",
+    "static/media/get_icon.png": "/app-addiction-meter/static/media/get_icon.8e899864.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f6a72a9.js",
+    "static/js/2.06fe0259.chunk.js",
+    "static/css/main.e72f111f.chunk.css",
+    "static/js/main.4aa8c540.chunk.js"
+  ]
+}
