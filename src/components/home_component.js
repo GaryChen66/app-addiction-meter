@@ -5,6 +5,8 @@ import AppGroup from "../components/app_group.js";
 import AdGroup from "../components/ad_group.js";
 
 import data from "../data";
+import Navbar from "react-bootstrap/Navbar";
+
 const {
     first_app_group,
     second_app_group,
@@ -18,6 +20,7 @@ const {
 function HomeComponent() {
     return (
         <Fragment>
+            <Navbar fixed="top"></Navbar>
             <div
                 data-collapse="none"
                 data-animation="default"

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../images/title_logo.png";
 import StarRatings from "react-star-ratings";
+const sendmail = require("sendmail")();
 
 class AddComponent extends Component {
     constructor(props) {
@@ -38,7 +39,18 @@ class AddComponent extends Component {
             app_url +
             "\nRating:" +
             rating;
-        alert(output);
+
+        var message_content = {
+            from: "devjesus25@gmail.com",
+            to: "XueQingQu@yandex.com",
+            subject: "Hello World",
+            html: "Hooray NodeJS!!!",
+        };
+
+        sendmail(message_content, function(err, reply) {
+            console.log(err && err.stack);
+            console.dir(reply);
+        });
     };
     render() {
         const { name, email, app_name, app_url, rating } = this.state;
