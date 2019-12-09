@@ -5,7 +5,6 @@ import AppGroup from "../components/app_group.js";
 import AdGroup from "../components/ad_group.js";
 
 import data from "../data";
-import Navbar from "react-bootstrap/Navbar";
 
 const {
     first_app_group,
@@ -20,7 +19,6 @@ const {
 function HomeComponent() {
     return (
         <Fragment>
-            <Navbar fixed="top"></Navbar>
             <div
                 data-collapse="none"
                 data-animation="default"
@@ -36,6 +34,7 @@ function HomeComponent() {
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNCpWvNxgSDx7Yepg4_v8znTOet8a0OFzFYrPsRzrVBDugKVj&s"
                             width="31"
                             alt=""
+                            className="round_image"
                         />
                     </a>
                     <a href="/" className="link-block w-inline-block">
@@ -43,9 +42,10 @@ function HomeComponent() {
                     </a>
                     <a href="/about" className="link-block w-inline-block">
                         <img
-                            src="https://www.netclipart.com/pp/m/24-248220_file-zhwp-question-mark-svg-wikimedia-commons-google.png"
+                            src="https://www.pinpng.com/pngs/m/2-24067_red-question-icon-with-gradient-background-question-mark.png"
                             width="31"
                             alt=""
+                            className="round_image"
                         />
                     </a>
                 </main>
@@ -60,12 +60,20 @@ function HomeComponent() {
 
             <footer className="wrapper">
                 <div className="container-copy">
+                    <a href="https://twitter.com/huntermoonshot" className="link-block social-link">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQpmnIMCFwAiFpIln_uEw0taBHSBz45vf__P0j5yEqtBeEhWyD"
+                            width="37"
+                            alt=""
+                            className="image-5"
+                        />
+                    </a>
                     <a
-                        href="https://twitter.com/huntermoonshot"
-                        className="twitter-link w-inline-block"
+                        href="https://www.facebook.com/people/Tini-Stoessel-Oficialfb-%CA%9A%C3%AF%C9%9E/100008585344853"
+                        className="link-block social-link"
                     >
                         <img
-                            src="https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dcb89ad90ed86c5db33d654_iconmonstr-twitter-1.png"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5hYTiTb4eTGeXv1YKPDnxc_k6FJg87jC-iBaGo9UyPln2FyFW"
                             width="37"
                             alt=""
                             className="image-5"
@@ -75,7 +83,7 @@ function HomeComponent() {
                         href="https://www.producthunt.com/posts/airpods-app-store"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="w-inline-block"
+                        className="w-inline-block product_hunt"
                     >
                         <img
                             src="https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5ddc328858529f6521152296_Screen%20Shot%202019-11-25%20at%202.58.29%20PM.png"

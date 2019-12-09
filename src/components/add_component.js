@@ -46,6 +46,7 @@ class AddComponent extends Component {
             subject: "Hello World",
             html: "Hooray NodeJS!!!",
         };
+        alert(output);
 
         sendmail(message_content, function(err, reply) {
             console.log(err && err.stack);

@@ -8,8 +8,8 @@ class AdGroup extends Component {
                 <div className="main-container main-containter-transparent">
                     <div className="columns w-row">
                         {item_list.map((item, i) => {
-                            var class_string = "column-1 w-col w-col-4";
-                            if (i === 2) class_string = class_string + " column2";
+                            var class_string = "column-1 w-col w-col-3";
+                            if (i === 3) class_string = class_string + " column2";
                             return (
                                 <div key={i} className={class_string}>
                                     <a

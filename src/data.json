@@ -7,25 +7,43 @@
                 "link": "https://apps.apple.com/us/app/8-ball-pool/id543186831",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/97/af/99/97af9993-5adc-3763-4de1-8d63a90021f1/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/246x0w.png",
                 "app_name": "8 Ball Pool",
-                "app_description": "Play Pool with friends!"
+                "app_description": "Play Pool with friends!",
+                "rating": 6
             },
             {
                 "link": "https://apps.apple.com/us/app/netflix/id363590051",
                 "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/c1/db/4ac1db16-2741-c152-87d4-b3a06e4487c4/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Netflix",
-                "app_description": "Start Watching"
+                "app_description": "Start Watching",
+                "rating": 7
             },
             {
                 "link": "https://apps.apple.com/us/app/tinder/id547702041",
                 "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/ad/15/92/ad1592e7-27db-883e-ae83-b2e7b6d86178/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png",
                 "app_name": "Tinder",
-                "app_description": "Match, Chat & Meet New People"
+                "app_description": "Match, Chat & Meet New People",
+                "rating": 5
             },
             {
                 "link": "https://apps.apple.com/us/app/twitter/id333903271",
                 "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/28/e6/1b/28e61b2d-3705-bc23-afa9-faf9c4e75c12/ProductionAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Twitter",
-                "app_description": "Chat about what’s happening"
+                "app_description": "Chat about what’s happening",
+                "rating": 9
+            },
+            {
+                "link": "https://apps.apple.com/us/app/pinterest/id429047995",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/64/ae/b1/64aeb17f-a5e3-4ec6-60af-05439d57ccaf/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220.png/246x0w.png",
+                "app_name": "Pinterest",
+                "app_description": "Home design, recipe ideas",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/melee-gaming-communities/id1453773577",
+                "image": "https://lh3.googleusercontent.com/hV6aRWPDC5eIkr1zUnuXSYv9LFoaMKpjYrcgg9nJIaTIbGNIXKxDEjs1B6n4RI85VJxHKkJ1DHqj4i45zkPzmuKhdotdNbnP3aqM7l3oUDZa3Zp48xJlK_5DKu1K_bXoi4mlEjj2",
+                "app_name": "Melee: Gaming Communities",
+                "app_description": "Discuss & watch gaming clips",
+                "rating": 9
             }
         ]
     },
@@ -37,25 +55,43 @@
                 "link": "https://apps.apple.com/us/app/facebook/id284882215",
                 "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/77/8d/e4/778de4bb-0630-a808-d4ca-8798275f77e5/Icon-Production-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/246x0w.png",
                 "app_name": "Facebook",
-                "app_description": "#2 in Social Networking"
+                "app_description": "#2 in Social Networking",
+                "rating": 8
             },
             {
                 "link": "https://apps.apple.com/us/app/snapchat/id447188370",
                 "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/42/ac/87/42ac87b8-744a-80ce-3fae-7b1860b04082/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/246x0w.png",
                 "app_name": "Snapchat",
-                "app_description": "Real friends. Real you"
+                "app_description": "Real friends. Real you",
+                "rating": 6
             },
             {
                 "link": "https://apps.apple.com/us/app/tiktok-make-your-day/id835599320",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/0d/de/d6/0dded609-ead8-b178-9b0c-f33cf78d16c4/AppIcon_TikTok-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "TikTok",
-                "app_description": "Real People. Real Videos."
+                "app_description": "Real People. Real Videos.",
+                "rating": 7
             },
             {
                 "link": "https://apps.apple.com/us/app/instagram/id389801252",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/3a/1d/99/3a1d99de-ab81-cc44-815e-59032e50381e/Prod-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Instagram",
-                "app_description": "#2 in Photo & Video"
+                "app_description": "#2 in Photo & Video",
+                "rating": 5
+            },
+            {
+                "link": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/9a/cb/ef/9acbefcd-e2ef-9aba-9144-a7beb673b241/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/246x0w.png",
+                "app_name": "VSCO",
+                "app_description": "Where expression matters most",
+                "rating": 5
+            },
+            {
+                "link": "https://apps.apple.com/us/app/meetup/id375990038",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/5b/fb/ed/5bfbed0a-99d5-d34d-46d8-bf3f58e7face/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png",
+                "app_name": "Meetup",
+                "app_description": "Meet new people, do new things",
+                "rating": 6
             }
         ]
     },
@@ -67,25 +103,43 @@
                 "link": "https://apps.apple.com/us/app/words-with-friends-word-game/id804379658",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/a7/9c/49/a79c4983-1add-94c7-1c79-27e758dadac3/app_icon.Words2-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png",
                 "app_name": "Words With Friends",
-                "app_description": "Test your vocabulary skills!"
+                "app_description": "Test your vocabulary skills!",
+                "rating": 5
             },
             {
                 "link": "https://apps.apple.com/us/app/candy-crush-saga/id553834731",
                 "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/3a/ee/d93aee39-81b4-534e-9beb-baf24bfa89f1/AppIcon-0-1x_U007emarketing-0-85-220-7.png/246x0w.png",
                 "app_name": "Candy Crush Saga",
-                "app_description": "Win levels in match 3 puzzle"
+                "app_description": "Win levels in match 3 puzzle",
+                "rating": 6
             },
             {
                 "link": "https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/d6/26/1f/d6261f60-8838-6fec-632e-a2c8486d515e/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Marvel Strike Force",
-                "app_description": "Super Hero Teams Assemble"
+                "app_description": "Super Hero Teams Assemble",
+                "rating": 5
             },
             {
                 "link": "https://apps.apple.com/us/app/om-nom-merge/id1483037067",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/b0/61/43/b06143f5-7f3c-2e7a-04ad-3eba95238bf5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png",
                 "app_name": "Om Nom: Merge",
-                "app_description": "Merge Cut the Rope characters"
+                "app_description": "Merge Cut the Rope characters",
+                "rating": 4
+            },
+            {
+                "link": "https://apps.apple.com/us/app/hot-lava/id1469252166",
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/02/8c/26/028c2691-9956-bc53-70b0-9b10311428fe/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Hot Lava",
+                "app_description": "The floor is lava",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/om-nom-merge/id1483037067",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/97/37/c1/9737c12e-0e8e-4a51-5d43-33402cf531c4/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/246x0w.png",
+                "app_name": "Om Nom: Merge",
+                "app_description": "Merge Cut the Rope characters",
+                "rating": 5
             }
         ]
     },
@@ -97,25 +151,43 @@
                 "link": "https://apps.apple.com/us/app/theskimm/id1034995058",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/8a/8a/9d8a8aae-8eb2-a136-2e5b-921e0e9fe137/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "theSkimm",
-                "app_description": "Making it easier to live smart"
+                "app_description": "Making it easier to live smart",
+                "rating": 4
             },
             {
                 "link": "https://apps.apple.com/us/app/medium/id828256236",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/ab/68/0e/ab680efe-611d-2355-5f7c-ebaec0782690/MediumIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Medium",
-                "app_description": "Smart stories & ideas. No ads."
+                "app_description": "Smart stories & ideas. No ads.",
+                "rating": 5
             },
             {
                 "link": "https://apps.apple.com/us/app/npr/id324906251",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/ce/0f/5e/ce0f5edc-8e2e-0437-8fcc-bc0e82f15ce4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "NPR",
-                "app_description": "NPR"
+                "app_description": "NPR",
+                "rating": 2
             },
             {
                 "link": "https://apps.apple.com/us/app/dazn-live-boxing-mma-mlb/id1129523589",
                 "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/42/b0/d7/42b0d781-2a50-b187-6605-3dab859edf9c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Live Boxing, MMA & MLB",
-                "app_description": "Fight Sports Streaming"
+                "app_description": "Fight Sports Streaming",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/cheddar-com/id1123178049",
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/41/30/5e/41305ede-2639-07ee-493a-0e68809dd499/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Cheddar.com",
+                "app_description": "Cheddar Inc",
+                "rating": 4
+            },
+            {
+                "link": "https://apps.apple.com/us/app/nextdoor-neighborhood-app/id640360962",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/80/61/26/806126ce-ec5b-34df-fe23-16106cb4eb67/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png",
+                "app_name": "Nextdoor",
+                "app_description": "Local News, Buy & Sell, Events",
+                "rating": 3
             }
         ]
     },
@@ -127,49 +199,74 @@
                 "link": "https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664",
                 "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/54/2d/cc/542dcc0f-c77c-5c24-7b01-aaa6e0b99caf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "YouTube",
-                "app_description": "Videos, Music and Live Streams"
+                "app_description": "Videos, Music and Live Streams",
+                "rating": 8
             },
             {
                 "link": "https://apps.apple.com/us/app/fanduel-sportsbook-betting/id1413721906",
                 "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/64/7d/19/647d19fa-af2a-dfb6-7938-7d223e6472a2/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/246x0w.png",
                 "app_name": "Fanduel Sportsbook",
-                "app_description": "Sports betting - IN, PA, NJ"
+                "app_description": "Sports betting - IN, PA, NJ",
+                "rating": 5
             },
             {
                 "link": "https://apps.apple.com/us/app/espn-fantasy-sports/id555376968",
                 "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/85/b6/a8/85b6a8a9-717d-c995-8e2e-e8862d2d5df4/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "ESPN Fantasy Sports",
-                "app_description": "Football, Basketball, & Streak"
+                "app_description": "Football, Basketball, & Streak",
+                "rating": 5
             },
             {
                 "link": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/89/3b/6c/893b6c9d-4ba5-4416-4b6e-a1e7f26a796f/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
                 "app_name": "Spotify",
-                "app_description": "Discover the latest songs"
+                "app_description": "Discover the latest songs",
+                "rating": 4
+            },
+            {
+                "link": "https://apps.apple.com/us/app/wish-shopping-made-fun/id530621395",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c3/28/29/c32829f5-6fcf-296d-21aa-45a712ccf016/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Wish - Shopping Made Fun",
+                "app_description": "Fashion, Decor & Electronics",
+                "rating": 5
+            },
+            {
+                "link": "https://apps.apple.com/us/app/hulu-stream-tv-shows-movies/id376510438",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/f3/5d/5b/f35d5b9a-f9fe-6494-106c-4447c0713bfa/HuluAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Hulu",
+                "app_description": "Watch new episodes & films",
+                "rating": 7
             }
         ]
     },
     "first_advertise": [
         {
-            "link": "https://techwiser.com/airpods-apps-for-android/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dcb8d3ba77069bdf06661e2_Airpods Pro Android.jpg",
-            "category_heading": "How To",
-            "main_heading": "Experience Airpods On Android",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+            "link": "https://www.forbes.com/sites/brianscudamore/2018/10/30/the-truth-about-smartphone-addiction-and-how-to-beat-it/#a31ef974232c",
+            "image": "https://thumbor.forbes.com/thumbor/711x479/https://blogs-images.forbes.com/brianscudamore/files/2018/10/Brian-phone-Forbes-1200x810.jpg?width=960",
+            "category_heading": "FEATURED ARTICLE",
+            "main_heading": "The Truth About Smartphone Addiction, And How To Beat It",
+            "description": "Forbes"
         },
         {
-            "link": "https://www.macrumors.com/guide/airpods-pro-tips-and-tricks/",
+            "link": "https://www.washingtonexaminer.com/opinion/shocking-number-of-children-show-signs-of-smartphone-addiction",
+            "image": "https://mediadc.brightspotcdn.com/dims4/default/a1d7edf/2147483647/strip/true/crop/2290x1322+0+0/resize/2290x1322!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2F37%2F88%2Fdace85394043abcacd871a5514b0%2Fistock-1173095998.jpg",
+            "category_heading": "FEATURED ARTICLE",
+            "main_heading": "Shocking number of children show signs of smartphone addiction",
+            "description": "Washington Examiner"
+        },
+        {
+            "link": "http://everythingfortea.com/",
+            "image": "http://everythingfortea.com/wp-content/uploads/2014/02/slider_2_bg.jpg",
+            "category_heading": "FEATURED AD",
+            "main_heading": "Everything For Tea",
+            "description": "CHECK THIS OUT"
+        },
+        {
+            "link": "https://www.wired.com/story/smartphone-society/",
             "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dd7628b81d3e91208e82ea6_Airpods Pro Tips & Tricks Mac Rumors.jpg",
-            "category_heading": "Tips & Tricks",
-            "main_heading": "Top 14 AirPods Pro Tips and Tricks",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
-        },
-        {
-            "link": "https://techwiser.com/airpods-apps-for-android/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dcb8d3ba77069bdf06661e2_Airpods Pro Android.jpg",
-            "category_heading": "How To",
-            "main_heading": "Experience Airpods On Android",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+            "category_heading": "FEATURED ARTICLE",
+            "main_heading": "Society Photographer Turns His Lens on Smartphone Addiction",
+            "description": "Wired"
         }
     ],
     "second_advertise": [
@@ -192,6 +289,13 @@
             "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dcb8d3ba77069bdf06661e2_Airpods Pro Android.jpg",
             "category_heading": "How To",
             "main_heading": "Experience Airpods On Android",
+            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+        },
+        {
+            "link": "https://www.macrumors.com/guide/airpods-pro-tips-and-tricks/",
+            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dd7628b81d3e91208e82ea6_Airpods Pro Tips & Tricks Mac Rumors.jpg",
+            "category_heading": "Tips & Tricks",
+            "main_heading": "Top 14 AirPods Pro Tips and Tricks",
             "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
         }
     ]
