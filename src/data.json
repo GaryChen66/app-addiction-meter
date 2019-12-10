@@ -259,11 +259,11 @@
             "image": "http://everythingfortea.com/wp-content/uploads/2014/02/slider_2_bg.jpg",
             "category_heading": "FEATURED AD",
             "main_heading": "Everything For Tea",
-            "description": "CHECK THIS OUT"
+            "description": "Check this out"
         },
         {
             "link": "https://www.wired.com/story/smartphone-society/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dd7628b81d3e91208e82ea6_Airpods Pro Tips & Tricks Mac Rumors.jpg",
+            "image": "https://media.wired.com/photos/5ddd94cb400f470009e774e1/master/w_1600%2Cc_limit/photo_jones_screen-1.jpg",
             "category_heading": "FEATURED ARTICLE",
             "main_heading": "Society Photographer Turns His Lens on Smartphone Addiction",
             "description": "Wired"
@@ -271,32 +271,32 @@
     ],
     "second_advertise": [
         {
-            "link": "https://techwiser.com/airpods-apps-for-android/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dcb8d3ba77069bdf06661e2_Airpods Pro Android.jpg",
-            "category_heading": "How To",
-            "main_heading": "Experience Airpods On Android",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+            "link": "https://theappfactor.com/25-addicting-iphone-games/",
+            "image": "https://theappfactor.com/wp-content/uploads/Clash-Royale-youtube.jpg",
+            "category_heading": "FEATURED ARTICLE",
+            "main_heading": "25 Most Addicting iPhone Games",
+            "description": "The App Factor"
         },
         {
-            "link": "https://www.macrumors.com/guide/airpods-pro-tips-and-tricks/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dd7628b81d3e91208e82ea6_Airpods Pro Tips & Tricks Mac Rumors.jpg",
-            "category_heading": "Tips & Tricks",
-            "main_heading": "Top 14 AirPods Pro Tips and Tricks",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+            "link": "https://www.airpodsappstore.com",
+            "image": "airpordstore",
+            "category_heading": "FEATURED AD",
+            "main_heading": "AirPods AppStore",
+            "description": "CHECK THIS OUT"
         },
         {
-            "link": "https://techwiser.com/airpods-apps-for-android/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dcb8d3ba77069bdf06661e2_Airpods Pro Android.jpg",
-            "category_heading": "How To",
-            "main_heading": "Experience Airpods On Android",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+            "link": "https://thenextweb.com/dd/2014/10/28/10-ingredients-concoct-subconsciously-addictive-mobile-app",
+            "image": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/02/Flappy-Bird-photo1-730x280.jpg",
+            "category_heading": "FEATURED ARTICLE",
+            "main_heading": "10 Things That Make an Addictive Mobile App",
+            "description": "The Next Web"
         },
         {
-            "link": "https://www.macrumors.com/guide/airpods-pro-tips-and-tricks/",
-            "image": "https://uploads-ssl.webflow.com/5dbe53da15cb7fb363a3264c/5dd7628b81d3e91208e82ea6_Airpods Pro Tips & Tricks Mac Rumors.jpg",
-            "category_heading": "Tips & Tricks",
-            "main_heading": "Top 14 AirPods Pro Tips and Tricks",
-            "description": "Best Airpods Apps for Android to Get iPhone Like Experience"
+            "link": "https://www.businessinsider.com/how-app-developers-keep-us-addicted-to-our-smartphones-2018-1",
+            "image": "https://image.businessinsider.com/5a849909d0307236008b45bf?width=2500&format=jpeg&auto=webp",
+            "category_heading": "FEATURED ARTICLE",
+            "main_heading": "How app developers keep us addicted to our smartphones",
+            "description": "Business Insider"
         }
     ]
 }

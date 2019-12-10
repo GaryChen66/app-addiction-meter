@@ -1,5 +1,26 @@
 import React, { Component } from "react";
-import get_icon from "../images/get_icon.png";
+import rating1 from "../images/rating1.png";
+import rating2 from "../images/rating2.png";
+import rating3 from "../images/rating3.png";
+import rating4 from "../images/rating4.png";
+import rating5 from "../images/rating5.png";
+import rating6 from "../images/rating6.png";
+import rating7 from "../images/rating7.png";
+import rating8 from "../images/rating8.png";
+import rating9 from "../images/rating9.png";
+import rating10 from "../images/rating10.png";
+var rating_arr = [
+    rating1,
+    rating2,
+    rating3,
+    rating4,
+    rating5,
+    rating6,
+    rating7,
+    rating8,
+    rating9,
+    rating10,
+];
 
 class AppGroup extends Component {
     render() {
@@ -30,7 +51,11 @@ class AppGroup extends Component {
                                                 </h2>
                                             </div>
                                             <div className="get-wrapper">
-                                                <img src={get_icon} width="40" alt="Get" />
+                                                <img
+                                                    src={rating_arr[item.rating - 1]}
+                                                    width="70"
+                                                    alt="Get"
+                                                />
                                             </div>
                                         </a>
                                     </div>

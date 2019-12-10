@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import HomeComponent from "./components/home_component";
-import AddComponent from "./components/add_component";
+import SubmitComponent from "./components/submit_component";
 import AboutComponent from "./components/about_component";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
                     <HomeComponent />
                 </Route>
                 <Route path="/submit">
-                    <AddComponent />
+                    <SubmitComponent />
                 </Route>
                 <Route path="/about">
                     <AboutComponent />

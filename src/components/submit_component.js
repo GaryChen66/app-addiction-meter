@@ -1,9 +1,29 @@
 import React, { Component } from "react";
-import logo from "../images/title_logo.png";
-import StarRatings from "react-star-ratings";
-const sendmail = require("sendmail")();
+import submit_logo from "../images/submit_logo.png";
 
-class AddComponent extends Component {
+var nodemailer = require("nodemailer");
+
+async function sendMail(mailOptions) {
+    var smtpTransport = nodemailer.createTransport({
+        service: "SendGrid",
+        secure: false,
+        auth: {
+            user: "DamirOstojic",
+            pass: "123qwe!@#",
+        },
+    });
+    var result = await new Promise(resolve => {
+        console.log(smtpTransport);
+        smtpTransport.sendMail(mailOptions, function(error) {
+            if (error) {
+                console.log("email send error", error);
+            }
+            resolve({ error });
+        });
+    });
+    return result;
+}
+class SubmitComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -11,7 +31,7 @@ class AddComponent extends Component {
             email: "",
             app_name: "",
             app_url: "",
-            rating: 10,
+            rating: "",
         };
     }
     changeRating = (newRating, name) => {
@@ -39,26 +59,21 @@ class AddComponent extends Component {
             app_url +
             "\nRating:" +
             rating;
-
+        console.log(output);
         var message_content = {
-            from: "devjesus25@gmail.com",
-            to: "XueQingQu@yandex.com",
-            subject: "Hello World",
-            html: "Hooray NodeJS!!!",
+            from: "appaddictionmeter@website.com",
+            to: "devjesus25@gmail.com",
+            subject: "App Submit",
+            text: "ouput",
         };
-        alert(output);
-
-        sendmail(message_content, function(err, reply) {
-            console.log(err && err.stack);
-            console.dir(reply);
-        });
+        sendMail(message_content);
     };
     render() {
         const { name, email, app_name, app_url, rating } = this.state;
         return (
             <div className="module_wrap-4 contact_form main_contact">
                 <a href="/" className="link-block w-inline-block">
-                    <img src={logo} alt="" className="form12_logo" />
+                    <img src={submit_logo} alt="" className="form12_logo" />
                 </a>
                 <div className="form12-2">
                     <div className="form12_block-2 contact_form less_space w-form">
@@ -78,7 +93,7 @@ class AddComponent extends Component {
                                     data-name="Name"
                                     placeholder="Your Name"
                                     id="Name"
-                                    required=""
+                                    required={true}
                                     value={name}
                                     onChange={this.handleChange}
                                 />
@@ -90,7 +105,7 @@ class AddComponent extends Component {
                                     data-name="Email"
                                     placeholder="Your Email"
                                     id="Email"
-                                    required=""
+                                    required={true}
                                     value={email}
                                     onChange={this.handleChange}
                                 />
@@ -102,7 +117,7 @@ class AddComponent extends Component {
                                     data-name="App Name"
                                     placeholder="App Name"
                                     id="App-Name"
-                                    required=""
+                                    required={true}
                                     value={app_name}
                                     onChange={this.handleChange}
                                 />
@@ -114,16 +129,23 @@ class AddComponent extends Component {
                                     data-name="App Website"
                                     placeholder="App Store URL"
                                     id="App-Website"
-                                    required=""
+                                    required={true}
                                     value={app_url}
                                     onChange={this.handleChange}
                                 />
-                                <StarRatings
-                                    rating={rating}
-                                    starRatedColor="blue"
-                                    changeRating={this.changeRating}
-                                    numberOfStars={10}
+                                <input
+                                    type="number"
+                                    className="form-input form-input-large w-input"
+                                    maxLength="256"
                                     name="rating"
+                                    data-name="App Website"
+                                    placeholder="App Addiction Rating (1-10)"
+                                    id="App-Rating"
+                                    required={true}
+                                    value={rating}
+                                    min="1"
+                                    max="10"
+                                    onChange={this.handleChange}
                                 />
                             </div>
                             <div className="form12_button_wrap-2">
@@ -172,4 +194,4 @@ class AddComponent extends Component {
     }
 }
 
-export default AddComponent;
+export default SubmitComponent;

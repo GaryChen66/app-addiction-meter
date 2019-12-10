@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import airpordstore from "../images/airpordstore.png";
 
 class AdGroup extends Component {
     render() {
@@ -10,6 +11,11 @@ class AdGroup extends Component {
                         {item_list.map((item, i) => {
                             var class_string = "column-1 w-col w-col-3";
                             if (i === 3) class_string = class_string + " column2";
+
+                            var image_url = item.image;
+                            if (image_url === "airpordstore") {
+                                image_url = airpordstore;
+                            }
                             return (
                                 <div key={i} className={class_string}>
                                     <a
@@ -21,7 +27,7 @@ class AdGroup extends Component {
                                         <div
                                             className="blog-header-img"
                                             style={{
-                                                backgroundImage: `url('${item.image}')`,
+                                                backgroundImage: `url('${image_url}')`,
                                             }}
                                         ></div>
                                         <div className="div-block-4">

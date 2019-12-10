@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import logo from "../images/title_logo.png";
+import submit_logo from "../images/submit_logo.png";
 
 class AboutComponent extends Component {
     render() {
         return (
             <div className="module_wrap-4 contact_form main_contact">
                 <a href="/" className="link-block w-inline-block">
-                    <img src={logo} alt="" className="form12_logo" />
+                    <img src={submit_logo} alt="" className="form12_logo" />
                 </a>
                 <div className="form12-2">
                     <div className="container">
