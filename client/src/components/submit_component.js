@@ -1,39 +1,27 @@
 import React, { Component } from "react";
 import submit_logo from "../images/submit_logo.png";
 
-var nodemailer = require("nodemailer");
-
-async function sendMail(mailOptions) {
-    var smtpTransport = nodemailer.createTransport({
-        service: "SendGrid",
-        secure: false,
-        auth: {
-            user: "DamirOstojic",
-            pass: "123qwe!@#",
-        },
-    });
-    var result = await new Promise(resolve => {
-        console.log(smtpTransport);
-        smtpTransport.sendMail(mailOptions, function(error) {
-            if (error) {
-                console.log("email send error", error);
-            }
-            resolve({ error });
-        });
-    });
-    return result;
-}
 class SubmitComponent extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: "",
-            email: "",
-            app_name: "",
-            app_url: "",
-            rating: "",
-        };
+    state = {
+        data: null,
+        name: "",
+        email: "",
+        app_name: "",
+        app_url: "",
+        rating: "",
+    };
+
+    componentDidMount() {
+        this.callApi()
+            .then(res => this.setState({ data: res.express }))
+            .catch(err => console.log(err));
     }
+    callApi = async () => {
+        const response = await fetch("/send");
+        const body = await response.json();
+        if (response.status !== 200) throw Error(body.message);
+        return body;
+    };
     changeRating = (newRating, name) => {
         this.setState({
             rating: newRating,
@@ -45,7 +33,7 @@ class SubmitComponent extends Component {
             [evt.target.name]: value,
         });
     };
-    handleSubmit = event => {
+    handleSubmit = async event => {
         event.preventDefault();
         const { name, email, app_name, app_url, rating } = this.state;
         const output =
@@ -60,13 +48,21 @@ class SubmitComponent extends Component {
             "\nRating:" +
             rating;
         console.log(output);
-        var message_content = {
-            from: "appaddictionmeter@website.com",
-            to: "devjesus25@gmail.com",
-            subject: "App Submit",
-            text: "ouput",
-        };
-        sendMail(message_content);
+
+        const response = await fetch("/send", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                from: "appaddictionmeter@website.com",
+                to: "XueQingQu@yandex.com",
+                subject: "App Submit",
+                text: "ouput",
+            }),
+        });
+        const body = await response.text();
+        console.log(body);
     };
     render() {
         const { name, email, app_name, app_url, rating } = this.state;

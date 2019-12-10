@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from "react";
 
-import AppGroup from "../components/app_group.js";
-import AdGroup from "../components/ad_group.js";
+import AppGroup from "./app_group.js";
+import AdGroup from "./ad_group.js";
 
 import main_logo from "../images/main_logo.png";
 import plus_icon from "../images/plus_icon.png";
