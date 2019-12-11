@@ -3,7 +3,7 @@ import React, { Fragment, Component } from "react";
 import AppGroup from "./app_group.js";
 import AdGroup from "./ad_group.js";
 
-import main_logo from "../images/main_logo.png";
+import submit_logo from "../images/submit_logo.png";
 import plus_icon from "../images/plus_icon.png";
 import question_icon from "../images/question_icon.png";
 
@@ -38,7 +38,7 @@ class HomeComponent extends Component {
                             <img src={plus_icon} width="40" alt="" className="round_image" />
                         </a>
                         <a href="/" className="link-block w-inline-block">
-                            <img src={main_logo} width="300" alt="" />
+                            <img src={submit_logo} height="80" alt="" />
                         </a>
                         <a href="/about" className="link-block w-inline-block">
                             <img src={question_icon} width="40" alt="" className="round_image" />

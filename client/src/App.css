@@ -1779,7 +1779,7 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   background: white;
-  border-bottom: 1px solid darkblue;
+  border-bottom: 3px solid darkblue;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -2166,11 +2166,16 @@ a {
   -ms-flex: 0 auto;
   flex: 0 auto;
 }
-.form12-2 p{
+.form12-2 .about_content{
+  color: black;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 28px;
   line-break: auto ;
-  font-weight: bold;
+}
+.form12-2 .about_content hr{
+  height: 10px;
+  visibility: hidden;
+  margin: 0;
 }
 .form12_title_wrap-2, .form_error {
   display: -webkit-box;

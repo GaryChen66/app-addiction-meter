@@ -58,7 +58,7 @@ class SubmitComponent extends Component {
                 from: "appaddictionmeter@website.com",
                 to: "XueQingQu@yandex.com",
                 subject: "App Submit",
-                text: "ouput",
+                text: output,
             }),
         });
         const body = await response.text();
