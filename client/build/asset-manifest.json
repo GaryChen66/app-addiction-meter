@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.349153af.chunk.css",
+    "main.js": "/static/js/main.67505dd6.chunk.js",
+    "main.js.map": "/static/js/main.67505dd6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8eac158a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8eac158a.js.map",
+    "static/js/2.e54ce57f.chunk.js": "/static/js/2.e54ce57f.chunk.js",
+    "static/js/2.e54ce57f.chunk.js.map": "/static/js/2.e54ce57f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5182cd4787177c0463ca994c88d25773.js": "/precache-manifest.5182cd4787177c0463ca994c88d25773.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.349153af.chunk.css.map": "/static/css/main.349153af.chunk.css.map",
+    "static/media/airpordstore.png": "/static/media/airpordstore.90d77a04.png",
+    "static/media/everythingfortea.png": "/static/media/everythingfortea.bf2b67d8.png",
+    "static/media/rating1.png": "/static/media/rating1.6a8426e7.png",
+    "static/media/rating10.png": "/static/media/rating10.56d8ba5c.png",
+    "static/media/rating2.png": "/static/media/rating2.1da6f982.png",
+    "static/media/rating3.png": "/static/media/rating3.19bf3e9c.png",
+    "static/media/rating4.png": "/static/media/rating4.ba1861c6.png",
+    "static/media/rating5.png": "/static/media/rating5.0f0ea292.png",
+    "static/media/rating6.png": "/static/media/rating6.716b9dd5.png",
+    "static/media/rating7.png": "/static/media/rating7.b9860098.png",
+    "static/media/rating8.png": "/static/media/rating8.08631cb8.png",
+    "static/media/rating9.png": "/static/media/rating9.916f956a.png",
+    "static/media/submit_logo.png": "/static/media/submit_logo.6ce6f6ef.png",
+    "static/media/wired.jpg": "/static/media/wired.2e8ab982.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eac158a.js",
+    "static/js/2.e54ce57f.chunk.js",
+    "static/css/main.349153af.chunk.css",
+    "static/js/main.67505dd6.chunk.js"
+  ]
+}

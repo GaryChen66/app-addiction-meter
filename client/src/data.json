@@ -256,14 +256,14 @@
         },
         {
             "link": "http://everythingfortea.com/",
-            "image": "http://everythingfortea.com/wp-content/uploads/2014/02/slider_2_bg.jpg",
+            "image": "everythingfortea",
             "category_heading": "FEATURED AD",
             "main_heading": "Everything For Tea",
             "description": "Check this out"
         },
         {
             "link": "https://www.wired.com/story/smartphone-society/",
-            "image": "https://media.wired.com/photos/5ddd94cb400f470009e774e1/master/w_1600%2Cc_limit/photo_jones_screen-1.jpg",
+            "image": "wired",
             "category_heading": "FEATURED ARTICLE",
             "main_heading": "Society Photographer Turns His Lens on Smartphone Addiction",
             "description": "Wired"

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import airpordstore from "../images/airpordstore.png";
+import everythingfortea from "../images/everythingfortea.png";
+import wired from "../images/wired.jpg";
 
 class AdGroup extends Component {
     render() {
@@ -15,6 +17,10 @@ class AdGroup extends Component {
                             var image_url = item.image;
                             if (image_url === "airpordstore") {
                                 image_url = airpordstore;
+                            } else if (image_url === "everythingfortea") {
+                                image_url = everythingfortea;
+                            } else if (image_url === "wired") {
+                                image_url = wired;
                             }
                             return (
                                 <div key={i} className={class_string}>

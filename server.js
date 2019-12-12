@@ -9,11 +9,11 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/send", (req, res) => {
+app.get("/api/send", (req, res) => {
     res.send({ express: "Hello From Express" });
 });
 
-app.post("/send", (req, res) => {
+app.post("/api/send", (req, res) => {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
         secure: false,

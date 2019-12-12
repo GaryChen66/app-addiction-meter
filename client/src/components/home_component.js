@@ -1,4 +1,5 @@
 import React, { Fragment, Component } from "react";
+import { Link } from "react-router-dom";
 
 import AppGroup from "./app_group.js";
 import AdGroup from "./ad_group.js";
@@ -34,15 +35,15 @@ class HomeComponent extends Component {
 
                 <section className="main-wrapper">
                     <main className="container top-container">
-                        <a href="/submit" className="link-block w-inline-block">
+                        <Link to={"/submit"} className="link-block w-inline-block">
                             <img src={plus_icon} width="40" alt="" className="round_image" />
-                        </a>
-                        <a href="/" className="link-block w-inline-block">
-                            <img src={submit_logo} height="80" alt="" />
-                        </a>
-                        <a href="/about" className="link-block w-inline-block">
+                        </Link>
+                        <Link to={"/"} className="link-block w-inline-block">
+                            <img src={submit_logo} height="80" alt="" className="round_image" />
+                        </Link>
+                        <Link to={"/about"} className="link-block w-inline-block">
                             <img src={question_icon} width="40" alt="" className="round_image" />
-                        </a>
+                        </Link>
                     </main>
                 </section>
                 <div

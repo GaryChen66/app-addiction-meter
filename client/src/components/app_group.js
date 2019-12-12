@@ -35,7 +35,12 @@ class AppGroup extends Component {
                             <div className="collection-list-2 w-dyn-items">
                                 {item_list.map((item, i) => (
                                     <div key={i} className="collection-item-2 w-dyn-item">
-                                        <a href={item.link} className="link-item w-inline-block">
+                                        <a
+                                            href={item.link}
+                                            className="link-item w-inline-block"
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                        >
                                             <div className="icon-wrapper">
                                                 <div
                                                     style={{

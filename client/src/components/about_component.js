@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import submit_logo from "../images/submit_logo.png";
 
 class AboutComponent extends Component {
     render() {
         return (
             <div className="module_wrap-4 contact_form main_contact">
-                <a href="/" className="link-block w-inline-block">
+                <Link to={"/"} className="link-block w-inline-block">
                     <img src={submit_logo} alt="" className="form12_logo" />
-                </a>
+                </Link>
                 <div className="form12-2">
                     <div className="container">
                         <div className="about_content">

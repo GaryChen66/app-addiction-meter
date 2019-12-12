@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import submit_logo from "../images/submit_logo.png";
 
 class SubmitComponent extends Component {
@@ -17,7 +18,7 @@ class SubmitComponent extends Component {
             .catch(err => console.log(err));
     }
     callApi = async () => {
-        const response = await fetch("/send");
+        const response = await fetch("/api/send");
         const body = await response.json();
         if (response.status !== 200) throw Error(body.message);
         return body;
@@ -49,7 +50,7 @@ class SubmitComponent extends Component {
             rating;
         console.log(output);
 
-        const response = await fetch("/send", {
+        const response = await fetch("/api/send", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -68,9 +69,9 @@ class SubmitComponent extends Component {
         const { name, email, app_name, app_url, rating } = this.state;
         return (
             <div className="module_wrap-4 contact_form main_contact">
-                <a href="/" className="link-block w-inline-block">
+                <Link to={"/"} className="link-block w-inline-block">
                     <img src={submit_logo} alt="" className="form12_logo" />
-                </a>
+                </Link>
                 <div className="form12-2">
                     <div className="form12_block-2 contact_form less_space w-form">
                         <form
