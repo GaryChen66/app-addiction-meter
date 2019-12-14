@@ -7,14 +7,7 @@ import HomeComponent from "./components/home_component";
 import SubmitComponent from "./components/submit_component";
 import AboutComponent from "./components/about_component";
 
-const TITLE = "Appaddiction Meter";
-
 class App extends Component {
-    componentDidMount = () => {
-        document.title = TITLE;
-        console.log(document);
-    };
-
     render() {
         return (
             <>

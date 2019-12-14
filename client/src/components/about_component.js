@@ -12,11 +12,11 @@ class AboutComponent extends Component {
                 <div className="form12-2">
                     <div className="container">
                         <div className="about_content">
-                            <a href="/" style={{ fontStyle: "italic", fontSize: "20px" }}>
+                            <Link to={"/"} style={{ fontStyle: "italic", fontSize: "20px" }}>
                                 AppAddictionMeter.com
-                            </a>
-                            &nbsp;&nbsp;is a website that offers users a new way to rate and review
-                            mobile apps.
+                            </Link>
+                            &nbsp;is a website that offers users a new way to rate and review mobile
+                            apps.
                             <hr />
                             The addiction to our smartphones is constantly overlooked, but is a
                             serious ailment that must be further acknowledged.

@@ -1779,7 +1779,7 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   background: white;
-  border-bottom: 3px solid darkblue;
+  /*border-bottom: 3px solid darkblue;*/
   position: fixed;
   top: 0;
   z-index: 1000;

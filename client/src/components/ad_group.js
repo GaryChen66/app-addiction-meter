@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import airpordstore from "../images/airpordstore.png";
 import everythingfortea from "../images/everythingfortea.png";
+import forestapp from "../images/forestapp.png";
 import wired from "../images/wired.jpg";
 
 class AdGroup extends Component {
@@ -21,6 +22,8 @@ class AdGroup extends Component {
                                 image_url = everythingfortea;
                             } else if (image_url === "wired") {
                                 image_url = wired;
+                            } else if (image_url === "forestapp") {
+                                image_url = forestapp;
                             }
                             return (
                                 <div key={i} className={class_string}>
