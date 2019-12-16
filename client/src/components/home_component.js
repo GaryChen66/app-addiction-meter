@@ -16,8 +16,10 @@ const {
     third_app_group,
     fourth_app_group,
     fifth_app_group,
+    sixth_app_group,
     first_advertise,
     second_advertise,
+    third_advertise,
 } = data;
 
 class HomeComponent extends Component {
@@ -62,6 +64,8 @@ class HomeComponent extends Component {
                 <AppGroup {...fourth_app_group} />
                 <AdGroup item_list={second_advertise} />
                 <AppGroup {...fifth_app_group} />
+                <AppGroup {...sixth_app_group} />
+                <AdGroup item_list={third_advertise} />
 
                 <footer className="wrapper">
                     <div className="container-copy">

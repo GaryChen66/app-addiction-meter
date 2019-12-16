@@ -25,7 +25,7 @@ class AboutComponent extends Component {
                             are currently using, or plan on using, based on how addicting they are
                             according to other smartphone users.
                             <hr />
-                            AppAddictionMeter can be a tool for any user, of any age, and aims to be
+                            This site can be a tool for any user, of any age, and aims to be
                             particularly useful for parents and students.
                             <hr />
                             For more information or business inquiries please contact:

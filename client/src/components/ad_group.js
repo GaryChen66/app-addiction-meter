@@ -3,6 +3,7 @@ import airpordstore from "../images/airpordstore.png";
 import everythingfortea from "../images/everythingfortea.png";
 import forestapp from "../images/forestapp.png";
 import wired from "../images/wired.jpg";
+import parental from "../images/parental.png";
 
 class AdGroup extends Component {
     render() {
@@ -24,6 +25,8 @@ class AdGroup extends Component {
                                 image_url = wired;
                             } else if (image_url === "forestapp") {
                                 image_url = forestapp;
+                            } else if (image_url === "parental") {
+                                image_url = parental;
                             }
                             return (
                                 <div key={i} className={class_string}>
