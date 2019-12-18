@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import submit_logo from "../images/submit_logo.png";
 
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-154738585-1");
+
 class SubmitComponent extends Component {
     state = {
         data: null,
@@ -66,6 +69,9 @@ class SubmitComponent extends Component {
         console.log(body);
     };
     render() {
+        console.log("submit page");
+        ReactGA.set({ page: "/submit_page" });
+        ReactGA.pageview("/submit_page");
         const { name, email, app_name, app_url, rating } = this.state;
         return (
             <div className="module_wrap-4 contact_form main_contact">

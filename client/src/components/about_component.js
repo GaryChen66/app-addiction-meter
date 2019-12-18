@@ -2,8 +2,15 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import submit_logo from "../images/submit_logo.png";
 
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-154738585-1"); // Here we should use our GA id
+
 class AboutComponent extends Component {
     render() {
+        console.log("about page");
+        ReactGA.set({ page: "/about_page" });
+        ReactGA.pageview("/about_page");
         return (
             <div className="module_wrap-4 contact_form main_contact">
                 <Link to={"/"} className="link-block w-inline-block">

@@ -7,8 +7,10 @@ import AdGroup from "./ad_group.js";
 import submit_logo from "../images/submit_logo.png";
 import plus_icon from "../images/plus_icon.png";
 import question_icon from "../images/question_icon.png";
-
+import ReactGA from "react-ga";
 import data from "../data";
+
+ReactGA.initialize("UA-154738585-1");
 
 const {
     first_app_group,
@@ -24,6 +26,9 @@ const {
 
 class HomeComponent extends Component {
     render() {
+        console.log("home page");
+        ReactGA.set({ page: "/home_page" });
+        ReactGA.pageview("/home_page");
         return (
             <Fragment>
                 <div
