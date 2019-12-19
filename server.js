@@ -14,6 +14,7 @@ app.get("/api/send", (req, res) => {
     res.send({ express: "Hello From Express" });
 });
 
+//Email Send function
 app.post("/api/send", (req, res) => {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
