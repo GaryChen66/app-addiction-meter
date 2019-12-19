@@ -5,6 +5,7 @@ import forestapp from "../images/forestapp.png";
 import wired from "../images/wired.jpg";
 import parental from "../images/parental.png";
 
+//A Target Blank
 class AdGroup extends Component {
     render() {
         const { item_list } = this.props;
