@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import submit_logo from "../images/submit_logo.png";
 
+//Google Analytics to Submit page
 import ReactGA from "react-ga";
 ReactGA.initialize("UA-154738585-1");
 
