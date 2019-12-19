@@ -10,6 +10,7 @@ import question_icon from "../images/question_icon.png";
 import ReactGA from "react-ga";
 import data from "../data";
 
+//Google analytics to Home page
 ReactGA.initialize("UA-154738585-1");
 
 const {
