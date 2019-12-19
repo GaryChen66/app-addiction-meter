@@ -9,6 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+//Test API
 app.get("/api/send", (req, res) => {
     res.send({ express: "Hello From Express" });
 });
