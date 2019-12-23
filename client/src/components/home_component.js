@@ -13,6 +13,7 @@ import data from "../data";
 //Google analytics to Home page
 ReactGA.initialize("UA-154738585-1");
 
+//Load Json data
 const {
     first_app_group,
     second_app_group,
