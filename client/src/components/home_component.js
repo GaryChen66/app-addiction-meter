@@ -26,6 +26,7 @@ const {
     third_advertise,
 } = data;
 
+//Home component
 class HomeComponent extends Component {
     render() {
         console.log("home page");
