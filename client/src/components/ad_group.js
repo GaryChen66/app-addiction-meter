@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+//Import local images
 import airpordstore from "../images/airpordstore.png";
 import everythingfortea from "../images/everythingfortea.png";
 import forestapp from "../images/forestapp.png";
