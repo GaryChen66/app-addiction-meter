@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 
 class HeaderComponent extends Component {
     render() {
-        return <Fragment>asdf</Fragment>;
+        return <Fragment>Top Menu</Fragment>;
     }
 }
 
