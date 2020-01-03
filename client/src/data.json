@@ -193,6 +193,102 @@
     },
     "fifth_app_group": {
         "category_heading": "Most Popular",
+        "main_heading": "Shopping Apps",
+        "item_list": [
+            {
+                "link": "https://apps.apple.com/us/app/letgo-sell-buy-used-stuff/id986339882",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/3d/33/d9/3d33d917-3d77-915d-486e-5ed90915f441/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Letgo",
+                "app_description": "List in your local marketplace",
+                "rating": 4
+            },
+            {
+                "link": "https://apps.apple.com/us/app/etsy-shop-special-every-day/id477128284",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/19/ec/29/19ec2930-bce9-7306-0e88-1bcc5ca84ca1/BOEAppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png",
+                "app_name": "Etsy",
+                "app_description": "Buy unique and creative goods",
+                "rating": 3
+            },
+            {
+                "link": "https://apps.apple.com/us/app/pinterest/id429047995",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/59/7b/91/597b9119-dab0-2558-f22f-b2d3afe19417/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220.png/246x0w.png",
+                "app_name": "Pintrest",
+                "app_description": "Home design, DIY, recipe ideas",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/amazon-shopping-made-easy/id297606951",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/a3/03/eb/a303eb09-35c1-af61-b1e2-ba860fa6ff3d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/246x0w.png",
+                "app_name": "Amazon - Shopping",
+                "app_description": "Search Fast, Find Deals",
+                "rating": 8
+            },
+            {
+                "link": "https://apps.apple.com/us/app/poshmark/id470412147",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/27/e7/0f/27e70f85-05b1-7cb3-7405-25f3d4bcdf9c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Poshmark",
+                "app_description": "Buy & Sell Fashion",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/ebay-shopping-buy-and-sell/id282614216",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/bf/ce/63/bfce633d-c977-f326-60b4-069f19512716/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/246x0w.png",
+                "app_name": "eBay - Shopping",
+                "app_description": "Browse Deals and Save Money",
+                "rating": 3
+            }
+        ]
+    },
+    "sixth_app_group": {
+        "category_heading": "Most Popular",
+        "main_heading": "Lifestyle & Health Apps",
+        "item_list": [
+            {
+                "link": "https://apps.apple.com/us/app/match-1-dating-app/id305939712",
+                "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/ff/05/92/ff059203-cc94-d5c6-c1aa-871d5ba8cb12/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Match - #1 Dating App",
+                "app_description": "Match, Date, Meet Real Singles",
+                "rating": 3
+            },
+            {
+                "link": "https://apps.apple.com/us/app/reflectly/id1241229134",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/70/de/0f/70de0f32-181d-90b6-57a7-eeeb802aedf9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Reflectly",
+                "app_description": "Journal for Happiness",
+                "rating": 5
+            },
+            {
+                "link": "https://apps.apple.com/us/app/hily-dating-app-for-singles/id1250946975",
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/d5/26/0a/d5260a7c-b95c-ead8-5878-e2081913a548/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Hily",
+                "app_description": "Like, Chat, Meet, Date",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/houzz-home-design-remodel/id399563465",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/29/04/d6/2904d629-761f-fb1a-f450-9c0bcae8ea3e/ReleaseIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Houzz",
+                "app_description": "Remodeling Ideas & Local Pros",
+                "rating": 2
+            },
+            {
+                "link": "https://apps.apple.com/us/app/nike-run-club/id387771637",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/b1/66/dc/b166dc60-71dd-6f5c-95be-9afbff2f6680/AppIconProd-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Nike Run Club",
+                "app_description": "Run Tracking & Training Plans",
+                "rating": 5
+            },
+            {
+                "link": "https://apps.apple.com/us/app/calm/id571800810",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/48/18/8b/48188bbd-d7c5-84f7-5cbb-4a4b35ea7f13/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Calm",
+                "app_description": "Meditation and Sleep Stories",
+                "rating": 7
+            }
+        ]
+    },
+    "seventh_app_group": {
+        "category_heading": "Most Popular",
         "main_heading": "Kids Apps",
         "item_list": [
             {
@@ -239,7 +335,7 @@
             }
         ]
     },
-    "sixth_app_group": {
+    "eighth_app_group": {
         "category_heading": "Most Popular",
         "main_heading": "Other Apps",
         "item_list": [

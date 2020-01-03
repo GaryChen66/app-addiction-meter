@@ -21,6 +21,8 @@ const {
     fourth_app_group,
     fifth_app_group,
     sixth_app_group,
+    seventh_app_group,
+    eighth_app_group,
     first_advertise,
     second_advertise,
     third_advertise,
@@ -74,6 +76,8 @@ class HomeComponent extends Component {
                 <AppGroup {...fifth_app_group} />
                 <AppGroup {...sixth_app_group} />
                 <AdGroup item_list={third_advertise} />
+                <AppGroup {...seventh_app_group} />
+                <AppGroup {...eighth_app_group} />
 
                 <footer className="wrapper">
                     <div className="container-copy">
