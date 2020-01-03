@@ -193,6 +193,54 @@
     },
     "fifth_app_group": {
         "category_heading": "Most Popular",
+        "main_heading": "Kids Apps",
+        "item_list": [
+            {
+                "link": "https://apps.apple.com/us/app/barbie-dreamhouse-adventures/id1296796112",
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/fd/fa/17/fdfa1705-6ca4-2adf-d028-ce24e51a2e66/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/246x0w.png",
+                "app_name": "Barbie Dreamhouse Adventures",
+                "app_description": "Design, cook, dance and party!",
+                "rating": 6
+            },
+            {
+                "link": "https://apps.apple.com/us/app/kiddopia-abc-toddler-games/id1223397201",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/db/8d/4a/db8d4a7e-dcf2-aecf-e5e3-8d17601ab93a/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
+                "app_name": "Kiddopia - ABC Toddler Games",
+                "app_description": "Educational Preschool Learning",
+                "rating": 4
+            },
+            {
+                "link": "https://apps.apple.com/us/app/world-of-peppa-pig/id1175384784",
+                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/bd/1e/0b/bd1e0b1b-245b-f335-c28b-666143e4bdaa/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/246x0w.png",
+                "app_name": "World of Peppa Pig",
+                "app_description": "Learn & Play with Peppa Pig!",
+                "rating": 8
+            },
+            {
+                "link": "https://apps.apple.com/us/app/crayola-create-and-play/id1431955703",
+                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9a/0e/63/9a0e63e1-d351-150a-3691-045f4d5df914/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/246x0w.png",
+                "app_name": "Crayola Create and Play",
+                "app_description": "Fun Games & Coloring for Kids",
+                "rating": 3
+            },
+            {
+                "link": "https://apps.apple.com/us/app/toca-kitchen-2/id943869618",
+                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple71/v4/df/91/14/df911420-c3f3-d4b8-50fa-1781f4793c3d/mzl.eqazslnj.png/246x0w.png",
+                "app_name": "Toca Kitchen 2",
+                "app_description": "Get creative with food!",
+                "rating": 5
+            },
+            {
+                "link": "https://apps.apple.com/us/app/talking-carl/id417373312",
+                "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/08/bc/7c/08bc7ca2-8d76-c12d-f30c-ab5e65b8264d/AppIcon-0-1x_U007emarketing-0-0-85-220-0-6.png/246x0w.png",
+                "app_name": "Talking Carl",
+                "app_description": "Tayasui",
+                "rating": 8
+            }
+        ]
+    },
+    "sixth_app_group": {
+        "category_heading": "Most Popular",
         "main_heading": "Shopping Apps",
         "item_list": [
             {
@@ -239,7 +287,7 @@
             }
         ]
     },
-    "sixth_app_group": {
+    "seventh_app_group": {
         "category_heading": "Most Popular",
         "main_heading": "Lifestyle & Health Apps",
         "item_list": [
@@ -284,54 +332,6 @@
                 "app_name": "Calm",
                 "app_description": "Meditation and Sleep Stories",
                 "rating": 7
-            }
-        ]
-    },
-    "seventh_app_group": {
-        "category_heading": "Most Popular",
-        "main_heading": "Kids Apps",
-        "item_list": [
-            {
-                "link": "https://apps.apple.com/us/app/barbie-dreamhouse-adventures/id1296796112",
-                "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/fd/fa/17/fdfa1705-6ca4-2adf-d028-ce24e51a2e66/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/246x0w.png",
-                "app_name": "Barbie Dreamhouse Adventures",
-                "app_description": "Design, cook, dance and party!",
-                "rating": 6
-            },
-            {
-                "link": "https://apps.apple.com/us/app/kiddopia-abc-toddler-games/id1223397201",
-                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/db/8d/4a/db8d4a7e-dcf2-aecf-e5e3-8d17601ab93a/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
-                "app_name": "Kiddopia - ABC Toddler Games",
-                "app_description": "Educational Preschool Learning",
-                "rating": 4
-            },
-            {
-                "link": "https://apps.apple.com/us/app/world-of-peppa-pig/id1175384784",
-                "image": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/bd/1e/0b/bd1e0b1b-245b-f335-c28b-666143e4bdaa/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/246x0w.png",
-                "app_name": "World of Peppa Pig",
-                "app_description": "Learn & Play with Peppa Pig!",
-                "rating": 8
-            },
-            {
-                "link": "https://apps.apple.com/us/app/crayola-create-and-play/id1431955703",
-                "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9a/0e/63/9a0e63e1-d351-150a-3691-045f4d5df914/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/246x0w.png",
-                "app_name": "Crayola Create and Play",
-                "app_description": "Fun Games & Coloring for Kids",
-                "rating": 3
-            },
-            {
-                "link": "https://apps.apple.com/us/app/toca-kitchen-2/id943869618",
-                "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple71/v4/df/91/14/df911420-c3f3-d4b8-50fa-1781f4793c3d/mzl.eqazslnj.png/246x0w.png",
-                "app_name": "Toca Kitchen 2",
-                "app_description": "Get creative with food!",
-                "rating": 5
-            },
-            {
-                "link": "https://apps.apple.com/us/app/hulu-stream-tv-shows-movies/id376510438",
-                "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/08/bc/7c/08bc7ca2-8d76-c12d-f30c-ab5e65b8264d/AppIcon-0-1x_U007emarketing-0-0-85-220-0-6.png/246x0w.png",
-                "app_name": "Talking Carl",
-                "app_description": "Tayasui",
-                "rating": 8
             }
         ]
     },

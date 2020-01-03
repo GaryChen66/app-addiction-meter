@@ -83,7 +83,7 @@ class HomeComponent extends Component {
                     <div className="container-copy">
                         <a
                             href="https://twitter.com/howaddicting"
-                            className="link-block social-link"
+                            className="link-block social-link w-inline-block"
                         >
                             <img
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQpmnIMCFwAiFpIln_uEw0taBHSBz45vf__P0j5yEqtBeEhWyD"
@@ -94,7 +94,7 @@ class HomeComponent extends Component {
                         </a>
                         <a
                             href="https://www.facebook.com/appaddictionmeter/"
-                            className="link-block social-link"
+                            className="link-block social-link w-inline-block"
                         >
                             <img
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5hYTiTb4eTGeXv1YKPDnxc_k6FJg87jC-iBaGo9UyPln2FyFW"

@@ -46,6 +46,36 @@ class AboutComponent extends Component {
                             </a>
                         </div>
                     </div>
+                    <div
+                        className="container-copy"
+                        style={{
+                            width: "90%",
+                            marginTop: "350px",
+                        }}
+                    >
+                        <a
+                            href="https://twitter.com/howaddicting"
+                            className="link-block social-link"
+                        >
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQpmnIMCFwAiFpIln_uEw0taBHSBz45vf__P0j5yEqtBeEhWyD"
+                                width="35"
+                                alt=""
+                                className="image-5"
+                            />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/appaddictionmeter/"
+                            className="link-block social-link"
+                        >
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5hYTiTb4eTGeXv1YKPDnxc_k6FJg87jC-iBaGo9UyPln2FyFW"
+                                width="37"
+                                alt=""
+                                className="image-5"
+                            />
+                        </a>
+                    </div>
                 </div>
             </div>
         );
