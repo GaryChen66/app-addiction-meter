@@ -24,10 +24,10 @@ var rating_arr = [
 
 class AppGroup extends Component {
     render() {
-        const { category_heading, main_heading, item_list } = this.props;
+        const { category_heading, main_heading, item_list, pos_ref } = this.props;
         return (
             <section className="wrapper">
-                <main className="main-container">
+                <main ref={pos_ref} className="main-container">
                     <h1 className="category-heading">{category_heading}</h1>
                     <h1 className="heading-2">{main_heading}</h1>
                     <div className="w-dyn-list">

@@ -1,14 +1,11 @@
 import React, { Fragment, Component } from "react";
-import { Link } from "react-router-dom";
 
 import AppGroup from "./app_group.js";
 import AdGroup from "./ad_group.js";
 
-import submit_logo from "../images/submit_logo.png";
-import plus_icon from "../images/plus_icon.png";
-import question_icon from "../images/question_icon.png";
 import ReactGA from "react-ga";
 import data from "../data";
+import HeaderComponent from "./header_component.js";
 
 //Google analytics to Home page
 ReactGA.initialize("UA-154738585-1");
@@ -28,56 +25,45 @@ const {
     third_advertise,
 } = data;
 
+const ref_arr = [
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+];
 //Home component
 class HomeComponent extends Component {
+    clickItem = key => {
+        //window.scrollTo(0, ref_arr[key].current.offsetTop+100);
+        window.scrollTo({
+            top: ref_arr[key].current.offsetTop - 100,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
     render() {
         console.log("home page");
         ReactGA.set({ page: "/home_page" });
         ReactGA.pageview("/home_page");
         return (
             <Fragment>
-                <div
-                    data-collapse="none"
-                    data-animation="default"
-                    data-duration="400"
-                    className="logo-wrapper w-nav"
-                >
-                    <div className="w-nav-overlay" data-wf-ignore=""></div>
-                </div>
+                <HeaderComponent clickItem={this.clickItem}></HeaderComponent>
 
-                <section className="main-wrapper">
-                    <main className="container top-container">
-                        <Link to={"/submit"} className="link-block w-inline-block">
-                            <img src={plus_icon} width="40" alt="" className="round_image" />
-                        </Link>
-                        <Link to={"/"} className="link-block w-inline-block">
-                            <img src={submit_logo} height="80" alt="" className="round_image" />
-                        </Link>
-                        <Link to={"/about"} className="link-block w-inline-block">
-                            <img src={question_icon} width="40" alt="" className="round_image" />
-                        </Link>
-                    </main>
-                </section>
-                <div
-                    data-collapse="none"
-                    data-animation="default"
-                    data-duration="400"
-                    className="logo-wrapper w-nav"
-                >
-                    <div className="w-nav-overlay" data-wf-ignore=""></div>
-                </div>
-
-                <AppGroup {...first_app_group} />
-                <AppGroup {...second_app_group} />
+                <AppGroup {...first_app_group} pos_ref={ref_arr[0]} />
+                <AppGroup {...second_app_group} pos_ref={ref_arr[1]} />
                 <AdGroup item_list={first_advertise} />
-                <AppGroup {...third_app_group} />
-                <AppGroup {...fourth_app_group} />
+                <AppGroup {...third_app_group} pos_ref={ref_arr[2]} />
+                <AppGroup {...fourth_app_group} pos_ref={ref_arr[3]} />
                 <AdGroup item_list={second_advertise} />
-                <AppGroup {...fifth_app_group} />
-                <AppGroup {...sixth_app_group} />
+                <AppGroup {...fifth_app_group} pos_ref={ref_arr[4]} />
+                <AppGroup {...sixth_app_group} pos_ref={ref_arr[5]} />
                 <AdGroup item_list={third_advertise} />
-                <AppGroup {...seventh_app_group} />
-                <AppGroup {...eighth_app_group} />
+                <AppGroup {...seventh_app_group} pos_ref={ref_arr[6]} />
+                <AppGroup {...eighth_app_group} pos_ref={ref_arr[7]} />
 
                 <footer className="wrapper">
                     <div className="container-copy">

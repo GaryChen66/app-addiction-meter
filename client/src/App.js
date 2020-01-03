@@ -23,6 +23,9 @@ class App extends Component {
                         <Route path="/about">
                             <AboutComponent />
                         </Route>
+                        <Route exact path="/home">
+                            <HomeComponent />
+                        </Route>
                     </Switch>
                 </Router>
             </>

@@ -2,6 +2,29 @@ b, h1, h2, h3, h4, h5, h6, label, optgroup, strong {
   font-weight: 700;
   font-family: "Helvetica Neue";
 }
+.hidden{
+  display: none;
+}
+.menu{
+  list-style-type: none;
+  position: fixed;
+  top: 90px;
+  margin-left: -20px;
+  z-index: 10000;
+}
+.menu_item{
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+  text-align: center;
+  width: 500px;
+}
+.menu_item:hover{
+  font-weight: bold;
+  background: lightgray;
+}
 .w-lightbox-item, hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -2096,6 +2119,7 @@ a {
   position: static;
   -webkit-transition-property: none;
   transition-property: none;
+  cursor: pointer;
 }
 .link-block:hover {
   opacity: .5;

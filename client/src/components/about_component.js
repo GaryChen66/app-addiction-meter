@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import submit_logo from "../images/submit_logo.png";
 
+import meter_icon from "../images/meterKEY.png";
+
 //Google Analytics to about page
 import ReactGA from "react-ga";
 
@@ -20,27 +22,57 @@ class AboutComponent extends Component {
                 <div className="form12-2">
                     <div className="container">
                         <div className="about_content">
-                            <Link to={"/"} style={{ fontStyle: "italic", fontSize: "20px" }}>
+                            <Link
+                                to={"/"}
+                                style={{
+                                    fontStyle: "italic",
+                                    fontSize: "20px",
+                                    fontWeight: "bold",
+                                    color: "blue",
+                                }}
+                            >
                                 AppAddictionMeter.com
                             </Link>
-                            &nbsp;is a website that offers users a new way to rate and review mobile
-                            apps.
-                            <hr />
-                            The addiction to our smartphones is constantly overlooked, but is a
-                            serious ailment that must be further acknowledged.
+                            &nbsp;is a not-for-profit website bringing awareness to the vast
+                            increase in smartphone addiction by offering users a new way to rate and
+                            review mobile apps.
                             <hr />
                             As this issue becomes more prevalent, consider assessing the apps you
-                            are currently using, or plan on using, based on how addicting they are
+                            are currently using, or plan on using, based on how “addicting” they are
                             according to other smartphone users.
                             <hr />
-                            This site can be a tool for any user, of any age, and aims to be
-                            particularly useful for parents and students.
+                            This site can be a tool for any user, of any age, but aims to be
+                            particularly useful for millennials and Generation Z.
                             <hr />
-                            For more information or business inquiries please contact:
+                            <Link
+                                to={"/"}
+                                style={{
+                                    fontStyle: "italic",
+                                    fontSize: "20px",
+                                    fontWeight: "bold",
+                                    color: "blue",
+                                }}
+                            >
+                                AppAddictionMeter.com
+                            </Link>
+                            &nbsp;uses the following rating system:
+                            <hr />
+                            <img
+                                src={meter_icon}
+                                style={{
+                                    marginLeft: "calc(50% - 160px)",
+                                }}
+                            ></img>
+                            <hr />
+                            For more information or to advertise with us please contact:
                             <hr />
                             <a
                                 href="mailto:info@appaddictionmeter.com"
-                                style={{ cursor: "pointer" }}
+                                style={{
+                                    cursor: "pointer",
+                                    textDecoration: "underline",
+                                    fontWeight: "bold",
+                                }}
                             >
                                 info@appaddictionmeter.com
                             </a>
@@ -50,7 +82,7 @@ class AboutComponent extends Component {
                         className="container-copy"
                         style={{
                             width: "90%",
-                            marginTop: "350px",
+                            marginTop: "150px",
                         }}
                     >
                         <a
