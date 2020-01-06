@@ -6,7 +6,7 @@ import plus_icon from "../images/plus_icon.png";
 import question_icon from "../images/question_icon.png";
 
 let menu_item_list = [
-    "Most addicting",
+    "Most Addicting",
     "Social Networking",
     "Games & Entertainment",
     "News & Sports",
