@@ -5,6 +5,7 @@ import submit_logo from "../images/submit_logo.png";
 import plus_icon from "../images/plus_icon.png";
 import question_icon from "../images/question_icon.png";
 
+//Menu Item List
 let menu_item_list = [
     "Most Addicting",
     "Social Networking",
