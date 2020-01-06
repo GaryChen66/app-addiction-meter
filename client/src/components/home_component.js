@@ -25,6 +25,7 @@ const {
     third_advertise,
 } = data;
 
+//Create Ref for component
 const ref_arr = [
     React.createRef(),
     React.createRef(),
