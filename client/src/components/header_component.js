@@ -17,6 +17,8 @@ let menu_item_list = [
     "Other",
 ];
 
+//Add Menu
+
 class HeaderComponent extends Component {
     state = {
         show_menu: false,
