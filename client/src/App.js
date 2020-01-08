@@ -3,6 +3,7 @@ import React, { Component } from "react";
 //Load App style
 import "./App.css";
 
+//Import components
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import HomeComponent from "./components/home_component";
 import SubmitComponent from "./components/submit_component";
