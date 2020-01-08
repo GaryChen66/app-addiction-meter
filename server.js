@@ -17,6 +17,8 @@ app.get("/api/send", (req, res) => {
 //Email Send function
 app.post("/api/send", (req, res) => {
     // create reusable transporter object using the default SMTP transport
+
+    //set up authentication
     let transporter = nodemailer.createTransport({
         secure: false,
         service: "SendGrid",
