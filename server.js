@@ -51,6 +51,8 @@ if (process.env.NODE_ENV === "production") {
         res.sendFile(path.join(__dirname, "client/build", "index.html"));
     });
 }
+
+//App Server
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
 });
