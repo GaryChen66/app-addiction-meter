@@ -27,7 +27,9 @@ app.post("/api/send", (req, res) => {
             pass: "123qwe!@#",
         },
     });
+
     // setup email data with unicode symbols
+    // Initialize mail options
     let mailOptions = {
         from: req.body.from, // sender address
         to: req.body.to, // list of receivers
