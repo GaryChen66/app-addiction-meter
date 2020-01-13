@@ -12,6 +12,8 @@ import rating7 from "../images/rating7.png";
 import rating8 from "../images/rating8.png";
 import rating9 from "../images/rating9.png";
 import rating10 from "../images/rating10.png";
+
+//Icon Rating Array
 var rating_arr = [
     rating1,
     rating2,
