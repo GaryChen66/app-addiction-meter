@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 
+//Import Icons
 import submit_logo from "../images/submit_logo.png";
 import plus_icon from "../images/plus_icon.png";
 import question_icon from "../images/question_icon.png";
