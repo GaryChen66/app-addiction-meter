@@ -1,3 +1,4 @@
+//Import Component Library
 import React, { Component } from "react";
 import rating1 from "../images/rating1.png";
 import rating2 from "../images/rating2.png";
